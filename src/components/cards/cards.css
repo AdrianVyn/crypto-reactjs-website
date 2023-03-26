@@ -1,0 +1,82 @@
+.nftCard {
+  align-self: center;
+  background: #15263F;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+  max-width: auto;
+  max-height: 640px;
+  padding: 10px;
+}
+
+.thumbnail img {
+  border-radius: 8px;
+  aspect-ratio: 1/1;
+}
+
+.cardBody{
+  margin-top: .5rem;
+}
+
+h1 {
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 28px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.type p {
+  color: #00FFF8;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.type .icon {
+  margin-right: 8px;
+}
+
+p {
+  color: #8BACD9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+}
+
+.type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.type > p{
+  margin: auto 0;
+}
+
+.time p {
+  color: #8BACD9;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.cardBody h1 {
+  white-space: nowrap;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.thumbnail img.img-fluid {
+  object-fit: cover;
+}
